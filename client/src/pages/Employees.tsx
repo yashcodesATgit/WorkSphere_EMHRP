@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Search, Plus, Users, Mail, Phone, MapPin, Building2, Calendar, FileText } from 'lucide-react';
+import { Search, Plus, Users, Mail, Building2, Calendar, FileText } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useEmployees, useCreateEmployee, useUpdateEmployee, useToggleEmployeeStatus } from '../hooks/useEmployeeQueries';
 import { useDepartments } from '../hooks/useDepartmentQueries';
